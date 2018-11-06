@@ -1,0 +1,87 @@
+.list-label-container {
+  align-items: center;
+}
+
+.list-label {
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.mat-stroked-button.event-button {
+  width: 12rem;
+  box-shadow: 0px 6px 30px -5px #673ab7;
+  float: right;
+  border: none;
+}
+
+mat-divider.first {
+  margin-top: 1rem;
+}
+
+.left-panel, .right-panel {
+  height: 720px;
+  overflow: auto;
+}
+
+.left-panel {
+  margin-top: 1.5rem;
+}
+
+.left-panel-content button {
+  padding: 0 3rem 0 3rem;
+}
+
+ul.actions, ul.tags {
+  padding: 0;
+  margin-top: 1rem;
+}
+
+ul.actions li {
+  list-style-type: none;
+  margin-top: 0.5rem;
+}
+
+ul.actions li a {
+  text-decoration: none;
+  color: #000;
+}
+
+ul.tags li {
+  list-style-type: none;
+  text-align: left;
+  margin-top: 0.5rem;
+  display: flex;
+}
+
+ul.tags li a {
+  margin-left: 0.3rem;
+}
+
+.red {
+  color: #ff0000;
+}
+
+.orange {
+  color: #ffa500;
+}
+
+.blue {
+  color: #0000ff;
+}
+
+.green {
+  color: #008000;
+}
+
+.black {
+  color: #000;
+}
+
+.divider {
+  width: 5.5rem;
+}
+
+.divider hr {
+  margin-top: -0.1rem;
+  border-top: 3px solid #F5A623;
+}

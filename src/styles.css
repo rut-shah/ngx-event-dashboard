@@ -1,0 +1,14 @@
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+.content button.mat-raised-button.mat-primary {
+  border-radius: 0.3rem;
+  background-color: #395AD4;
+}
+
+.content button.mat-stroked-button.mat-primary {
+  color: #395AD4;
+}
+
+.bold {
+  font-weight: 500;
+}

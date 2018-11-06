@@ -1,0 +1,42 @@
+<div class="row list-label-container">
+  <div class="col-sm-8 list-label-wrapper">
+    <div class="list-label">
+      Sommer Festival in the City
+    </div>
+  </div>
+  <div class="col-sm-4 event-button-wrapper">
+    <button class="event-button" mat-stroked-button color="primary">Go To Event</button>
+  </div>
+</div>
+
+<mat-divider class="first"></mat-divider>
+
+<div class="divider">
+  <hr class="highlighter" />
+</div>
+
+<div class="row list-content">
+  <div class="col-md-auto left-panel">
+    <div class="left-panel-content">
+        <button mat-raised-button color="primary" routerLink="./message-compose">Compose</button>
+        <ul class="actions">
+          <li><a href="#" class="inbox bold">Inbox (2)</a></li>
+          <li><a href="#" class="sent-mail">Sent Mail</a></li>
+          <li><a href="#" class="drafts">Drafts</a></li>
+        </ul>
+    </div>
+    <mat-divider></mat-divider>
+
+    <ul class="tags">
+      <li><i class="material-icons red">label</i><a href="#" class="">Label 1</a></li>
+      <li><i class="material-icons orange">label</i><a href="#" class="">Label 2</a></li>
+      <li><i class="material-icons green">label</i><a href="#" class="">Label 3</a></li>
+      <li><i class="material-icons blue">label</i><a href="#" class="">Label 4</a></li>
+      <li><i class="material-icons black">label</i><a href="#" class="">Label 5</a></li>
+    </ul>
+    
+  </div>
+  <div class="col-md right-panel">
+    <router-outlet></router-outlet>
+  </div>
+</div>

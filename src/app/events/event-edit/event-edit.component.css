@@ -1,0 +1,87 @@
+.divider {
+  width: 5.5rem;
+}
+
+.divider hr {
+  margin-top: -1.2rem;
+  border-top: 3px solid #F5A623;
+}
+
+.event-list-divider {
+  margin: 1rem 0 1rem 0;
+}
+
+.events-edit-label-container {
+  align-items: center;
+}
+
+.list-label-wrapper {
+  padding-right: 2rem;
+}
+
+.list-label {
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.event-data-container, .event-media-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  padding: 2rem;
+  border: 1px solid #d3d3d3;
+  box-shadow: 0 5px 5px -3px rgba(0,0,0,.2), 0 8px 10px 1px rgba(0,0,0,.14), 0 3px 14px 2px rgba(0,0,0,.12);
+}
+
+.event-data-container > * {
+  width: 100%;
+}
+
+.event-data-container-label, .event-media-container-label {
+  font-weight: 600;
+}
+
+button.save-event.mat-primary {
+  width: 12rem;
+  margin-top: 1rem;
+}
+
+.event-media-container {
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.event-media-container-label {
+  margin-top: 3rem;
+}
+
+.event-media-container .event-image-container {
+  background: url('../../../assets/images/event-4.png');
+  background-size: cover;
+  height: 9rem;
+  width: 9rem;
+  border: 1px solid #d3d3d3;
+}
+
+.event-media-container .image-name {
+  width: 77%;
+}
+
+.image-name .material-icons {
+  vertical-align: middle;
+}
+
+.event-media-container .change-image {
+  width: 10rem;
+  margin-top: 1rem;
+}
+
+.event-media-container .metadata {
+  align-self: center;
+}
+
+.event-description textarea {
+  height: 8rem;
+  resize: none;
+}

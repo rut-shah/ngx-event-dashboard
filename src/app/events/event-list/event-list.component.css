@@ -1,0 +1,110 @@
+.my-events-label-container, .upcoming-events-label-container {
+  align-items: center;
+}
+
+.upcoming-events-label-container {
+  margin-top: 2rem;
+}
+
+.list-label {
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.event-button-wrapper {
+  padding-right: 2rem;
+}
+
+.mat-stroked-button.event-button {
+  width: 12rem;
+  float: right;
+}
+
+.event-card {
+  margin-bottom: 1rem;
+  cursor: pointer;
+  padding: 1.5rem;
+}
+
+.event-card:hover {
+  box-shadow: 0 3px 1px -2px #395AD4, 0 2px 15px 0 #395AD4, 0 1px 5px 0 #395AD4 !important;
+}
+
+.event-header-image {
+  display: inline-block;
+  border-radius: 0;
+  vertical-align: bottom;
+}
+
+.event-desc {
+  display: inline-block;
+  width: 75%;
+  margin-left: 2rem;
+}
+
+.event-2 {
+  background-image: url('../../../assets/images/event-2.png');
+  background-size: cover;
+}
+
+.event-3 {
+  background-image: url('../../../assets/images/event-3.png');
+  background-size: cover;
+}
+
+.event-4 {
+  background-image: url('../../../assets/images/event-4.png');
+  background-size: cover;
+}
+
+.event-brief-details {
+  position: absolute;
+  right: 1rem;
+}
+
+/deep/ .event-card .mat-card-header-text {
+  margin: 0 0 0 10.5rem;
+}
+
+.divider {
+  width: 5.5rem;
+}
+
+.divider hr {
+  margin-top: -1.1rem;
+  border-top: 3px solid #F5A623;
+}
+
+.event-list-divider {
+  margin: 1rem 0 1rem 0;
+}
+
+.role {
+  font-style: italic;
+  color: #395AD4;
+  text-align: right;
+}
+
+.date-container {
+  margin: 0;
+}
+
+.location-container {
+  font-style: italic;
+  margin: 0;
+  float: right;
+}
+
+.apply-button {
+  float: right;
+  bottom: 1.5rem;
+  right: -0.5rem;
+}
+
+.event-desc {
+  font-size: 16px;
+}
+
+.mat-card-title {
+  margin: 0;
+}

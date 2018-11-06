@@ -1,0 +1,20 @@
+<table mat-table [dataSource]="dataSource" class="mat-elevation-z8 message-list">
+  <ng-container matColumnDef="sender">
+    <td mat-cell *matCellDef="let element"> {{element.sender}} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="subject">
+    <th mat-header-cell *matHeaderCellDef></th>
+    <td mat-cell *matCellDef="let element"> {{element.subject}} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="desc">
+    <td mat-cell *matCellDef="let element"> {{element.desc}} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="time">
+    <td mat-cell *matCellDef="let element"> {{element.time}} </td>
+  </ng-container>
+
+  <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+</table>

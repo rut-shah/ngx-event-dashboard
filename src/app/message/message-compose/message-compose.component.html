@@ -1,0 +1,63 @@
+<div class="message-compose-container">
+  
+  <mat-form-field class="recipient-container">
+    <div class="rec-container" >
+      <div class="dialog-container">
+        
+      </div>
+      
+      <textarea class="rec-list" matInput placeholder="Recipients:" (keyup)="addRecipient($event)" (keydown.enter)="false">
+        <div class="rec" *ngFor="let rec of recCollection"><span class="label">{{rec}}</span><i class="material-icons" (click)="removeRecipient($event)">cancel</i></div>
+      </textarea>
+
+      <div class="rec-dialog">
+        <p>All</p>
+        <p>Recipient</p>
+        <p>Recipient</p>
+        <p>Recipient</p>
+        <p>Recipient</p>
+        <p>Recipient</p>
+        <p>Recipient</p>
+        <p>Recipient</p>
+        <p>Recipient</p>
+        <p>Recipient</p>
+      </div>
+    </div>
+    <div class="filter-recipients-label">Filter Recipients</div>
+  </mat-form-field>
+
+  <mat-form-field>
+    <input class="filter-recipients" matInput placeholder="Filter Recipients:">
+    <div class="total-users">200 users</div>
+  </mat-form-field>
+
+  <mat-form-field>
+    <input matInput placeholder="Subject:">
+  </mat-form-field>
+
+  <mat-form-field class="textarea">
+    <textarea matInput>
+      {{emailBody}}
+    </textarea>
+  </mat-form-field>
+
+  <mat-card class="text-card">
+    <mat-card-header>
+      <mat-card-title>Insert to Text:</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      <ul class="insert-text-list">
+        <li (click)="addToEmail($event)">Recipient's First Name</li>
+        <li (click)="addToEmail($event)">Recipient's Last Name</li>
+        <li (click)="addToEmail($event)">Event Title</li>
+        <li (click)="addToEmail($event)">Event Start Date</li>
+        <li (click)="addToEmail($event)">Event Finish Date</li>
+      </ul>
+    </mat-card-content>
+  </mat-card>
+
+  <div class="cta">
+    <button class="send-message" mat-raised-button color="primary">Send</button>
+    <div class="delete"><i class="material-icons">delete</i></div>
+  </div>
+</div>

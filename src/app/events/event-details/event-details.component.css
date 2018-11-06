@@ -1,0 +1,100 @@
+.divider {
+  width: 5.5rem;
+}
+
+.divider hr {
+  margin-top: -1.2rem;
+  border-top: 3px solid #F5A623;
+}
+
+.event-list-divider {
+  margin: 1rem 0 1rem 0;
+}
+
+.event-button-wrapper {
+  padding-right: 2rem;
+}
+
+.mat-stroked-button.event-button {
+  width: 12rem;
+  float: right;
+}
+
+.list-label-wrapper {
+  padding-right: 2rem;
+}
+
+.list-label {
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.event-details-container {
+  padding: 1.5rem;
+  margin-top: 1rem;
+  border: 1px solid #d3d3d3;
+  border-radius: 0.3rem;
+}
+
+.event-data-container-label {
+  font-weight: 500;
+}
+
+.event-data {
+  width: 100%;
+}
+
+.event-data td {
+  padding-bottom: 1rem;
+}
+
+.event-data .label {
+  font-weight: 500;
+}
+
+.event-data-description {
+  width: 100%;
+  margin-top: 1rem;
+  padding: 1.5rem;
+  border: 1px solid #d3d3d3;
+  border-radius: 0.3rem;
+}
+
+.other-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto;
+  margin-top: 3.65rem;
+  width: 100%;
+}
+
+.other-container-label {
+  font-weight: 500;
+}
+
+.shifts, .helpers {
+  margin-top: 1rem;
+}
+
+.other-container button {
+  margin-top: 1rem;
+}
+
+.media {
+  margin-top: 2rem;
+}
+
+.timeline-image, .helpers-image, .assign-image {
+  background: url('https://via.placeholder.com/722x246');
+  background-size: cover;
+  height: 9rem;
+}
+
+.timeline-media-container, .helpers-media-container, .assign-media-container {
+  margin-top: 1rem;
+  border: 1px solid #d3d3d3;
+  border-radius: 0.3rem;
+}
+
+.other-container button {
+  width: 15rem;
+}

@@ -1,0 +1,21 @@
+<div class="container-fluid header-container">
+  <div class="row header">
+    <div class="col-sm-2">
+      <div class="logo" routerLink="/"></div>
+    </div>
+    <div class="col-sm-1"></div>
+    <div class="col-sm-6 top-nav-container">
+      <ul class="top-nav">
+        <li [ngClass]="{'active': activeTab=='/dashboard'}"><a href="#" class="top-nav-link">Dashboard</a></li>
+        <li [ngClass]="{'active': activeTab=='/message/message-list'|| activeTab=='/message/message-compose'}"><a href="#" class="top-nav-link" routerLink="message/message-list" (click)="toggleTab($event)">Messages</a></li>
+        <li [ngClass]="{'active': activeTab=='/events/event-list' || activeTab=='/events/event-edit'
+        || activeTab=='/events/event-details'}"><a href="#" class="top-nav-link" routerLink="events/event-list" (click)="toggleTab($event)">Event</a></li>
+        <li [ngClass]="{'active': activeTab=='/upload'}"><a href="#" class="top-nav-link" routerLink="/upload" (click)="toggleTab($event)">Mithelfer</a></li>
+      </ul>
+    </div>
+    <div class="col-sm-1"></div>
+    <div class="col-sm-2 profile">
+      <div class="avatar"></div>
+    </div>
+  </div>
+</div>

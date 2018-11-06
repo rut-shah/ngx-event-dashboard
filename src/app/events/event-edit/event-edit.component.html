@@ -1,0 +1,92 @@
+<div class="row events-edit-label-container">
+  <div class="col-sm-8 list-label-wrapper">
+    <div class="list-label">
+      Sommer Festival In the City
+    </div>
+  </div>
+</div>
+  
+<mat-divider class="event-list-divider"></mat-divider>
+
+<div class="divider">
+  <hr class="highlighter" />
+</div>
+
+<div class="row">
+  <div class="col-sm-5">
+    <span class="event-data-container-label">
+      Event Data:
+    </span>
+    <div class="event-data-container">
+      <mat-form-field>
+        <input matInput placeholder="Event's Title" required value="Sommer Festival In the City">
+      </mat-form-field>
+    
+      <mat-form-field>
+        <mat-select placeholder="Installation Start Date:" required>
+          <mat-option>-- None --</mat-option>
+          <mat-option value="option" selected>18.08.2018  12:00</mat-option>
+        </mat-select>
+      </mat-form-field>
+
+      <mat-form-field>
+        <mat-select placeholder="Gate Opening Date:" required selectedValue="option1">
+          <mat-option>-- None --</mat-option>
+          <mat-option value="option1">18.08.2018  12:00</mat-option>
+        </mat-select>
+      </mat-form-field>
+
+      <mat-form-field>
+        <mat-select placeholder="Gate Closing Date:" required>
+          <mat-option>-- None --</mat-option>
+          <mat-option value="option" selected>18.08.2018  12:00</mat-option>
+        </mat-select>
+      </mat-form-field>
+
+      <mat-form-field>
+        <mat-select placeholder="Removal Finish Date:" required>
+          <mat-option>-- None --</mat-option>
+          <mat-option value="option" selected>18.08.2018  12:00</mat-option>
+        </mat-select>
+      </mat-form-field>
+
+      <mat-form-field class="event-description">
+        <textarea matInput placeholder="Description"></textarea>
+      </mat-form-field>
+
+      <button class="save-event" mat-raised-button color="primary">Save</button>
+    </div>
+  </div>
+  <div class="col-sm-5">
+    <span class="event-data-container-label">
+      Contact Person:
+    </span>
+    <div class="event-data-container">
+        <mat-form-field>
+          <input matInput placeholder="Full Name" required>
+        </mat-form-field>
+      
+        <mat-form-field>
+          <input matInput placeholder="Email" required>
+        </mat-form-field>
+
+        <mat-form-field>
+          <input matInput placeholder="Phone (Mobile)" required>
+        </mat-form-field>
+
+        <button class="save-event" mat-raised-button color="primary">Save</button>
+    </div>
+    <div class="event-media-container-label">
+      Event's Photo:
+    </div>
+    <div class="event-media-container">
+        <div class="event-image-container"></div>
+        <div class="metadata">
+          <div class="image-name">
+            <i class="material-icons">cancel</i><span>sommer.jpg</span>
+          </div>
+          <button class="change-image" mat-stroked-button color="primary">Change Image</button>
+        </div>
+    </div>
+  </div>
+</div>
